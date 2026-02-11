@@ -2,7 +2,9 @@
 
 _A responsive React-based UI clone of the Apna.com profile page, built to replicate the layout, styling, and structure of a real-world job platform interface._
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](https://apna-com-profile-view-ui-clone.vercel.app/)
+<a href="https://apna-com-profile-view-ui-clone.vercel.app/" target="_blank">
+  <img src="https://img.shields.io/badge/Live-Demo-success?style=for-the-badge" />
+</a>
 
 🛠 Built with React & CSS | 🎯 Pixel-focused UI recreation
 
