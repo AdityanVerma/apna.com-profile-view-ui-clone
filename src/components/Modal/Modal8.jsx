@@ -1,4 +1,3 @@
-import React from 'react';
 import './Modal.css';
 
 function Modal8({onClose}) {
@@ -14,14 +13,14 @@ function Modal8({onClose}) {
                 <h1 className="heading-modal">Upload resume</h1>
                 <h2 className="sub-heading">Only visible to HRs</h2>
               </div>
-              <svg onClick={onClose} xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" class="cursor-pointer"><path fill="#5E6C84" d="M13.37.634a1.007 1.007 0 0 0-1.426 0L6.999 5.569 2.054.624A1.007 1.007 0 1 0 .628 2.05l4.945 4.945L.628 11.94a1.007 1.007 0 1 0 1.426 1.426L6.999 8.42l4.945 4.945a1.007 1.007 0 1 0 1.426-1.426L8.425 6.995 13.37 2.05a1.014 1.014 0 0 0 0-1.416Z"></path></svg>
+              <svg onClick={onClose} xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"><path fill="#5E6C84" d="M13.37.634a1.007 1.007 0 0 0-1.426 0L6.999 5.569 2.054.624A1.007 1.007 0 1 0 .628 2.05l4.945 4.945L.628 11.94a1.007 1.007 0 1 0 1.426 1.426L6.999 8.42l4.945 4.945a1.007 1.007 0 1 0 1.426-1.426L8.425 6.995 13.37 2.05a1.014 1.014 0 0 0 0-1.416Z"></path></svg>
             </div>
             
             <div className="content-section pb0">
               <div className="flex modal-content-inside">
                 <div className="resume-cont">
                   <div className="resume-upload">
-                    <svg className="upload-img" width="48" height="49" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg"><rect y="0.546875" width="48" height="48" rx="24" fill="#EAF8F4"></rect><g clip-path="url(#clip0_1587_389044)"><path d="M22 28.5466H26C26.55 28.5466 27 28.0966 27 27.5466V22.5466H28.59C29.48 22.5466 29.93 21.4666 29.3 20.8366L24.71 16.2466C24.32 15.8566 23.69 15.8566 23.3 16.2466L18.71 20.8366C18.08 21.4666 18.52 22.5466 19.41 22.5466H21V27.5466C21 28.0966 21.45 28.5466 22 28.5466ZM18 30.5466H30C30.55 30.5466 31 30.9966 31 31.5466C31 32.0966 30.55 32.5466 30 32.5466H18C17.45 32.5466 17 32.0966 17 31.5466C17 30.9966 17.45 30.5466 18 30.5466Z" fill="#1F8268"></path></g><defs><clipPath id="clip0_1587_389044"><rect width="24" height="24" fill="white" transform="translate(12 12.5469)"></rect></clipPath></defs></svg>
+                    <svg className="upload-img" width="48" height="49" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg"><rect y="0.546875" width="48" height="48" rx="24" fill="#EAF8F4"></rect><g clipPath="url(#clip0_1587_389044)"><path d="M22 28.5466H26C26.55 28.5466 27 28.0966 27 27.5466V22.5466H28.59C29.48 22.5466 29.93 21.4666 29.3 20.8366L24.71 16.2466C24.32 15.8566 23.69 15.8566 23.3 16.2466L18.71 20.8366C18.08 21.4666 18.52 22.5466 19.41 22.5466H21V27.5466C21 28.0966 21.45 28.5466 22 28.5466ZM18 30.5466H30C30.55 30.5466 31 30.9966 31 31.5466C31 32.0966 30.55 32.5466 30 32.5466H18C17.45 32.5466 17 32.0966 17 31.5466C17 30.9966 17.45 30.5466 18 30.5466Z" fill="#1F8268"></path></g><defs><clipPath id="clip0_1587_389044"><rect width="24" height="24" fill="white" transform="translate(12 12.5469)"></rect></clipPath></defs></svg>
                     <div className="upload-txt">
                       Drag &amp; drop or 
                       <span className="link">&nbsp;select resume&nbsp;</span>

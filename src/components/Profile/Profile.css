@@ -166,6 +166,7 @@ main {
 /* EDUCATION */
 .education > .info-heading,
 .education > .info-heading svg {
+    margin-right: 5px;
     overflow: hidden;
 }
 .education > .info-heading > p,
@@ -287,6 +288,9 @@ main {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+.heading-edit svg {
+    margin-right: 5px;
 }
 .heading-inside {
     justify-content: space-between;

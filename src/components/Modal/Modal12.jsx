@@ -1,4 +1,3 @@
-import React from 'react';
 import './Modal.css';
 
 function Modal5({onClose}) {
@@ -11,7 +10,7 @@ function Modal5({onClose}) {
 
             <div className="heading-section font-600">
               <h1 className="heading-modal">Edit documents and assets</h1>
-              <svg onClick={onClose} xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" class="cursor-pointer"><path fill="#5E6C84" d="M13.37.634a1.007 1.007 0 0 0-1.426 0L6.999 5.569 2.054.624A1.007 1.007 0 1 0 .628 2.05l4.945 4.945L.628 11.94a1.007 1.007 0 1 0 1.426 1.426L6.999 8.42l4.945 4.945a1.007 1.007 0 1 0 1.426-1.426L8.425 6.995 13.37 2.05a1.014 1.014 0 0 0 0-1.416Z"></path></svg>
+              <svg onClick={onClose} xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"><path fill="#5E6C84" d="M13.37.634a1.007 1.007 0 0 0-1.426 0L6.999 5.569 2.054.624A1.007 1.007 0 1 0 .628 2.05l4.945 4.945L.628 11.94a1.007 1.007 0 1 0 1.426 1.426L6.999 8.42l4.945 4.945a1.007 1.007 0 1 0 1.426-1.426L8.425 6.995 13.37 2.05a1.014 1.014 0 0 0 0-1.416Z"></path></svg>
             </div>
             
             <div className="content-section pb0">
@@ -50,7 +49,7 @@ function Modal5({onClose}) {
                       <div className="flex-acjc choice-cont">
                         <span className="choice">Bike</span>
                         <span className="check">
-                          <label class="checkBox-cont flex-acjc width-100">
+                          <label className="checkBox-cont flex-acjc width-100">
                             <input className="checkBox" type="checkbox" value="Bike" />
                             <span className="checkmark"></span>
                           </label>
@@ -61,7 +60,7 @@ function Modal5({onClose}) {
                       <div className="flex-acjc choice-cont">
                         <span className="choice">Car</span>
                         <span className="check">
-                          <label class="checkBox-cont flex-acjc width-100">
+                          <label className="checkBox-cont flex-acjc width-100">
                             <input className="checkBox" type="checkbox" value="Car" />
                             <span className="checkmark"></span>
                           </label>
@@ -72,7 +71,7 @@ function Modal5({onClose}) {
                       <div className="flex-acjc choice-cont">
                         <span className="choice">Cycle</span>
                         <span className="check">
-                          <label class="checkBox-cont flex-acjc width-100">
+                          <label className="checkBox-cont flex-acjc width-100">
                             <input className="checkBox" type="checkbox" value="cycle" />
                             <span className="checkmark"></span>
                           </label>
@@ -83,7 +82,7 @@ function Modal5({onClose}) {
                       <div className="flex-acjc choice-cont">
                         <span className="choice">Wifi</span>
                         <span className="check">
-                          <label class="checkBox-cont flex-acjc width-100">
+                          <label className="checkBox-cont flex-acjc width-100">
                             <input className="checkBox" type="checkbox" value="Wifi" />
                             <span className="checkmark"></span>
                           </label>
@@ -94,7 +93,7 @@ function Modal5({onClose}) {
                       <div className="flex-acjc choice-cont">
                         <span className="choice">Laptop</span>
                         <span className="check">
-                          <label class="checkBox-cont flex-acjc width-100">
+                          <label className="checkBox-cont flex-acjc width-100">
                             <input className="checkBox" type="checkbox" value="Laptop" />
                             <span className="checkmark"></span>
                           </label>
@@ -105,7 +104,7 @@ function Modal5({onClose}) {
                       <div className="flex-acjc choice-cont">
                         <span className="choice">Auto</span>
                         <span className="check">
-                          <label class="checkBox-cont flex-acjc width-100">
+                          <label className="checkBox-cont flex-acjc width-100">
                             <input className="checkBox" type="checkbox" value="Auto" />
                             <span className="checkmark"></span>
                           </label>
@@ -123,7 +122,7 @@ function Modal5({onClose}) {
                       <div className="flex-acjc choice-cont">
                         <span className="choice">Aadhar Card</span>
                         <span className="check">
-                          <label class="checkBox-cont flex-acjc width-100">
+                          <label className="checkBox-cont flex-acjc width-100">
                             <input className="checkBox" type="checkbox" value="Aadhar Card" />
                             <span className="checkmark"></span>
                           </label>
@@ -134,7 +133,7 @@ function Modal5({onClose}) {
                       <div className="flex-acjc choice-cont">
                         <span className="choice">Driving License</span>
                         <span className="check">
-                          <label class="checkBox-cont flex-acjc width-100">
+                          <label className="checkBox-cont flex-acjc width-100">
                             <input className="checkBox" type="checkbox" value="Driving License" />
                             <span className="checkmark"></span>
                           </label>
@@ -145,7 +144,7 @@ function Modal5({onClose}) {
                       <div className="flex-acjc choice-cont">
                         <span className="choice">Pan Card</span>
                         <span className="check">
-                          <label class="checkBox-cont flex-acjc width-100">
+                          <label className="checkBox-cont flex-acjc width-100">
                             <input className="checkBox" type="checkbox" value="Pan Card" />
                             <span className="checkmark"></span>
                           </label>
@@ -156,7 +155,7 @@ function Modal5({onClose}) {
                       <div className="flex-acjc choice-cont">
                         <span className="choice">Bank Passbook</span>
                         <span className="check">
-                          <label class="checkBox-cont flex-acjc width-100">
+                          <label className="checkBox-cont flex-acjc width-100">
                             <input className="checkBox" type="checkbox" value="Bank Passbook" />
                             <span className="checkmark"></span>
                           </label>
@@ -167,7 +166,7 @@ function Modal5({onClose}) {
                       <div className="flex-acjc choice-cont">
                         <span className="choice">Bike RC</span>
                         <span className="check">
-                          <label class="checkBox-cont flex-acjc width-100">
+                          <label className="checkBox-cont flex-acjc width-100">
                             <input className="checkBox" type="checkbox" value="Bike RC" />
                             <span className="checkmark"></span>
                           </label>
@@ -178,7 +177,7 @@ function Modal5({onClose}) {
                       <div className="flex-acjc choice-cont">
                         <span className="choice">Car RC</span>
                         <span className="check">
-                          <label class="checkBox-cont flex-acjc width-100">
+                          <label className="checkBox-cont flex-acjc width-100">
                             <input className="checkBox" type="checkbox" value="Car RC" />
                             <span className="checkmark"></span>
                           </label>
@@ -189,7 +188,7 @@ function Modal5({onClose}) {
                       <div className="flex-acjc choice-cont">
                         <span className="choice">Passport</span>
                         <span className="check">
-                          <label class="checkBox-cont flex-acjc width-100">
+                          <label className="checkBox-cont flex-acjc width-100">
                             <input className="checkBox" type="checkbox" value="Passport" />
                             <span className="checkmark"></span>
                           </label>

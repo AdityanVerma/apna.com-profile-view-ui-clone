@@ -1,4 +1,3 @@
-import React from 'react';
 import './Modal.css';
 
 function Modal3({onClose}) {
@@ -11,7 +10,7 @@ function Modal3({onClose}) {
 
             <div className="heading-section font-600">
               <h1 className="heading-modal">Edit highest education</h1>
-              <svg onClick={onClose} xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" class="cursor-pointer"><path fill="#5E6C84" d="M13.37.634a1.007 1.007 0 0 0-1.426 0L6.999 5.569 2.054.624A1.007 1.007 0 1 0 .628 2.05l4.945 4.945L.628 11.94a1.007 1.007 0 1 0 1.426 1.426L6.999 8.42l4.945 4.945a1.007 1.007 0 1 0 1.426-1.426L8.425 6.995 13.37 2.05a1.014 1.014 0 0 0 0-1.416Z"></path></svg>
+              <svg onClick={onClose} xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"><path fill="#5E6C84" d="M13.37.634a1.007 1.007 0 0 0-1.426 0L6.999 5.569 2.054.624A1.007 1.007 0 1 0 .628 2.05l4.945 4.945L.628 11.94a1.007 1.007 0 1 0 1.426 1.426L6.999 8.42l4.945 4.945a1.007 1.007 0 1 0 1.426-1.426L8.425 6.995 13.37 2.05a1.014 1.014 0 0 0 0-1.416Z"></path></svg>
             </div>
             
             <div className="content-section">
@@ -19,16 +18,16 @@ function Modal3({onClose}) {
                 <h1 className="modal-heading">Your current or highest completed level of education</h1>
                 <form className="selection">
                   <input type="radio" id="diploma" name="highest-edu" value="Diploma" />
-                  <label for="diploma">Diploma</label>
+                  <label htmlFor="diploma">Diploma</label>
 
                   <input type="radio" id="iti" name="highest-edu" value="ITI" />
-                  <label for="iti">ITI</label>
+                  <label htmlFor="iti">ITI</label>
                   
                   <input type="radio" id="grad" name="highest-edu" value="Graduate" checked="checked" />
-                  <label for="grad">Graduate</label>
+                  <label htmlFor="grad">Graduate</label>
 
                   <input type="radio" id="post-grad" name="highest-edu" value="Post Graduate" />
-                  <label for="post-grad">Post Graduate</label>
+                  <label htmlFor="post-grad">Post Graduate</label>
                 </form>
               </div>
             </div>

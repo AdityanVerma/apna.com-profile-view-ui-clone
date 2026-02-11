@@ -1,18 +1,18 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Profile.css';
-import Modal1 from "../Modal/Modal1.js";
-import Modal2 from "../Modal/Modal2.js";
-import Modal3 from "../Modal/Modal3.js";
-import Modal4 from "../Modal/Modal4.js";
-import Modal5 from "../Modal/Modal5.js";
-import Modal6 from "../Modal/Modal6.js";
-import Modal7 from "../Modal/Modal7.js";
-import Modal8 from "../Modal/Modal8.js";
-import Modal9 from "../Modal/Modal9.js";
-import Modal10 from "../Modal/Modal10.js";
-import Modal11 from "../Modal/Modal11.js";
-import Modal12 from "../Modal/Modal12.js";
-import Modal13 from "../Modal/Modal13.js";
+import Modal1 from "../Modal/Modal1.jsx";
+import Modal2 from "../Modal/Modal2.jsx";
+import Modal3 from "../Modal/Modal3.jsx";
+import Modal4 from "../Modal/Modal4.jsx";
+import Modal5 from "../Modal/Modal5.jsx";
+import Modal6 from "../Modal/Modal6.jsx";
+import Modal7 from "../Modal/Modal7.jsx";
+import Modal8 from "../Modal/Modal8.jsx";
+import Modal9 from "../Modal/Modal9.jsx";
+import Modal10 from "../Modal/Modal10.jsx";
+import Modal11 from "../Modal/Modal11.jsx";
+import Modal12 from "../Modal/Modal12.jsx";
+import Modal13 from "../Modal/Modal13.jsx";
 
 function Profile() {
 
@@ -49,7 +49,7 @@ function Profile() {
               <div className="link-container">
                 <a className="para link-url" href="http://" target="_blank" rel="noopener noreferrer">
                   <span className="link-text">https://apna.co/adityan-verma-akhh8mk</span>
-                  <svg className="link-icon" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="#1F8268" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z"></path><path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z"></path></svg>
+                  <svg className="link-icon" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="#1F8268" viewBox="0 0 16 16"><path fillRule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z"></path><path fillRule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z"></path></svg>
                 </a>
               </div>
               <div className="container-2">
@@ -137,7 +137,7 @@ function Profile() {
             </div>
 
             <div id="study" className="flex border-grey boxbox-2">
-              <div class="flex-acjc timestamp">
+              <div className="flex-acjc timestamp">
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none"><rect width="39" height="39" x="0.5" y="0.5" fill="#F4F2F6" rx="7.5"></rect><path fill="#8C8594" d="M21.668 25.025c-.463.284-1.055.44-1.668.44-.614 0-1.206-.156-1.67-.44l-7.554-4.634s-.682-.418-.682.53V25.546c0 2.438 4.435 5.065 9.905 5.065s9.906-2.627 9.906-5.065V20.66c0-.76-.485-.388-.485-.388l-7.752 4.754Z"></path><path fill="#D1CED4" d="M32.565 16.705c.58-.356.58-.938 0-1.294l-11.51-5.756c-.58-.356-1.53-.356-2.11 0l-11.51 5.756c-.58.356-.58.938 0 1.294l11.51 7.059c.58.356 1.53.356 2.11 0"></path><path fill="#8C8594" d="M32.088 27.168v-7.796s.006-.369-.213-.247c-.176.098-.607.338-.759.47-.175.152-.136.494-.136.494v7.079c0 .1-.086.149-.127.173a1.345 1.345 0 0 0 .681 2.507 1.347 1.347 0 0 0 .677-2.51c-.04-.023-.123-.07-.123-.17Z"></path><rect width="39" height="39" x="0.5" y="0.5" stroke="#E8E7EA" rx="7.5"></rect></svg>
                 <div className="std-line"></div>
                 <div className="std-dot">·</div>

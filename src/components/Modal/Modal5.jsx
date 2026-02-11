@@ -1,4 +1,3 @@
-import React from 'react';
 import './Modal.css';
 
 function Modal5({onClose}) {
@@ -11,35 +10,35 @@ function Modal5({onClose}) {
 
             <div className="heading-section font-600">
               <h1 className="heading-modal">Edit skills</h1>
-              <svg onClick={onClose} xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" class="cursor-pointer"><path fill="#5E6C84" d="M13.37.634a1.007 1.007 0 0 0-1.426 0L6.999 5.569 2.054.624A1.007 1.007 0 1 0 .628 2.05l4.945 4.945L.628 11.94a1.007 1.007 0 1 0 1.426 1.426L6.999 8.42l4.945 4.945a1.007 1.007 0 1 0 1.426-1.426L8.425 6.995 13.37 2.05a1.014 1.014 0 0 0 0-1.416Z"></path></svg>
+              <svg onClick={onClose} xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"><path fill="#5E6C84" d="M13.37.634a1.007 1.007 0 0 0-1.426 0L6.999 5.569 2.054.624A1.007 1.007 0 1 0 .628 2.05l4.945 4.945L.628 11.94a1.007 1.007 0 1 0 1.426 1.426L6.999 8.42l4.945 4.945a1.007 1.007 0 1 0 1.426-1.426L8.425 6.995 13.37 2.05a1.014 1.014 0 0 0 0-1.416Z"></path></svg>
             </div>
             
             <div className="content-section pb0">
                 <div className="flex modal-content-inside">
                     <div className="skills-section">
-                        <label for="flex skills">What skills do you have?</label>
+                        <label htmlFor="flex skills">What skills do you have?</label>
                         <p className="modal-sub-heading">Get noticed for the right job by adding your skills</p>
                         <input type="text" id="skills" placeholder="Search Skills"/>
                         <div className="skills-container">
                             <span className="skill-tag">
                                 <span className="skill-name">Computer Hardware </span>
-                                <svg className="remove-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" size="12" class="MuiChip-deleteIcon MuiChip-deleteIconColorPrimary"><path d="M18.3 5.71a.996.996 0 0 0-1.41 0L12 10.59 7.11 5.7A.996.996 0 1 0 5.7 7.11L10.59 12 5.7 16.89a.996.996 0 1 0 1.41 1.41L12 13.41l4.89 4.89a.996.996 0 1 0 1.41-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4Z" fill="#fff"></path></svg>
+                                <svg className="remove-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" size="12"><path d="M18.3 5.71a.996.996 0 0 0-1.41 0L12 10.59 7.11 5.7A.996.996 0 1 0 5.7 7.11L10.59 12 5.7 16.89a.996.996 0 1 0 1.41 1.41L12 13.41l4.89 4.89a.996.996 0 1 0 1.41-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4Z" fill="#fff"></path></svg>
                             </span>
                             <span className="skill-tag">
                                 <span className="skill-name">Web development </span>
-                                <svg className="remove-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" size="12" class="MuiChip-deleteIcon MuiChip-deleteIconColorPrimary"><path d="M18.3 5.71a.996.996 0 0 0-1.41 0L12 10.59 7.11 5.7A.996.996 0 1 0 5.7 7.11L10.59 12 5.7 16.89a.996.996 0 1 0 1.41 1.41L12 13.41l4.89 4.89a.996.996 0 1 0 1.41-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4Z" fill="#fff"></path></svg>
+                                <svg className="remove-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" size="12"><path d="M18.3 5.71a.996.996 0 0 0-1.41 0L12 10.59 7.11 5.7A.996.996 0 1 0 5.7 7.11L10.59 12 5.7 16.89a.996.996 0 1 0 1.41 1.41L12 13.41l4.89 4.89a.996.996 0 1 0 1.41-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4Z" fill="#fff"></path></svg>
                             </span>
                             <span className="skill-tag">
                                 <span className="skill-name">Programming language </span>
-                                <svg className="remove-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" size="12" class="MuiChip-deleteIcon MuiChip-deleteIconColorPrimary"><path d="M18.3 5.71a.996.996 0 0 0-1.41 0L12 10.59 7.11 5.7A.996.996 0 1 0 5.7 7.11L10.59 12 5.7 16.89a.996.996 0 1 0 1.41 1.41L12 13.41l4.89 4.89a.996.996 0 1 0 1.41-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4Z" fill="#fff"></path></svg>
+                                <svg className="remove-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" size="12"><path d="M18.3 5.71a.996.996 0 0 0-1.41 0L12 10.59 7.11 5.7A.996.996 0 1 0 5.7 7.11L10.59 12 5.7 16.89a.996.996 0 1 0 1.41 1.41L12 13.41l4.89 4.89a.996.996 0 1 0 1.41-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4Z" fill="#fff"></path></svg>
                             </span>
                             <span className="skill-tag">
                                 <span className="skill-name">Python </span>
-                                <svg className="remove-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" size="12" class="MuiChip-deleteIcon MuiChip-deleteIconColorPrimary"><path d="M18.3 5.71a.996.996 0 0 0-1.41 0L12 10.59 7.11 5.7A.996.996 0 1 0 5.7 7.11L10.59 12 5.7 16.89a.996.996 0 1 0 1.41 1.41L12 13.41l4.89 4.89a.996.996 0 1 0 1.41-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4Z" fill="#fff"></path></svg>
+                                <svg className="remove-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" size="12"><path d="M18.3 5.71a.996.996 0 0 0-1.41 0L12 10.59 7.11 5.7A.996.996 0 1 0 5.7 7.11L10.59 12 5.7 16.89a.996.996 0 1 0 1.41 1.41L12 13.41l4.89 4.89a.996.996 0 1 0 1.41-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4Z" fill="#fff"></path></svg>
                             </span>
                             <span className="skill-tag">
                                 <span className="skill-name">Java </span>
-                                <svg className="remove-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" size="12" class="MuiChip-deleteIcon MuiChip-deleteIconColorPrimary"><path d="M18.3 5.71a.996.996 0 0 0-1.41 0L12 10.59 7.11 5.7A.996.996 0 1 0 5.7 7.11L10.59 12 5.7 16.89a.996.996 0 1 0 1.41 1.41L12 13.41l4.89 4.89a.996.996 0 1 0 1.41-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4Z" fill="#fff"></path></svg>
+                                <svg className="remove-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" size="12"><path d="M18.3 5.71a.996.996 0 0 0-1.41 0L12 10.59 7.11 5.7A.996.996 0 1 0 5.7 7.11L10.59 12 5.7 16.89a.996.996 0 1 0 1.41 1.41L12 13.41l4.89 4.89a.996.996 0 1 0 1.41-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4Z" fill="#fff"></path></svg>
                             </span>
                         </div>
                         <div className="view-more border-grey">

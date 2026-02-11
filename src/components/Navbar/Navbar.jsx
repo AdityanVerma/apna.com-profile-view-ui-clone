@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './Navbar.css';
 import logo from "../../assets//img/logo.png";
-import NavbarDropdown from './navbar-dropdown.js';
+import NavbarDropdown from './navbar-dropdown.jsx';
 
 function Navbar() {
   const [ sticky, setSticky ] = useState(false);
